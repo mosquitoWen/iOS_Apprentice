@@ -14,6 +14,8 @@
 		2D1DE32C1EC0683C004F3A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1DE32A1EC0683C004F3A48 /* LaunchScreen.storyboard */; };
 		2D1DE3371EC0683C004F3A48 /* BullEyeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1DE3361EC0683C004F3A48 /* BullEyeGameTests.swift */; };
 		2D1DE3421EC0683C004F3A48 /* BullEyeGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1DE3411EC0683C004F3A48 /* BullEyeGameUITests.swift */; };
+		2D6FFECD1EC1AA0F00B9E66A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFECC1EC1AA0F00B9E66A /* AboutViewController.swift */; };
+		2DAE48F21EC1B93A00DB42D6 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DAE48F11EC1B93A00DB42D6 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2D1DE33D1EC0683C004F3A48 /* BullEyeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullEyeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1DE3411EC0683C004F3A48 /* BullEyeGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullEyeGameUITests.swift; sourceTree = "<group>"; };
 		2D1DE3431EC0683C004F3A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6FFECC1EC1AA0F00B9E66A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		2DAE48F11EC1B93A00DB42D6 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 			children = (
 				2D1DE3211EC0683C004F3A48 /* AppDelegate.swift */,
 				2D1DE3231EC0683C004F3A48 /* ViewController.swift */,
+				2D6FFECC1EC1AA0F00B9E66A /* AboutViewController.swift */,
 				2D1DE3251EC0683C004F3A48 /* Main.storyboard */,
 				2D1DE3281EC0683C004F3A48 /* Assets.xcassets */,
+				2DAE48F11EC1B93A00DB42D6 /* BullsEye.html */,
 				2D1DE32A1EC0683C004F3A48 /* LaunchScreen.storyboard */,
 				2D1DE32D1EC0683C004F3A48 /* Info.plist */,
 			);
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D1DE32C1EC0683C004F3A48 /* LaunchScreen.storyboard in Resources */,
+				2DAE48F21EC1B93A00DB42D6 /* BullsEye.html in Resources */,
 				2D1DE3291EC0683C004F3A48 /* Assets.xcassets in Resources */,
 				2D1DE3271EC0683C004F3A48 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D6FFECD1EC1AA0F00B9E66A /* AboutViewController.swift in Sources */,
 				2D1DE3241EC0683C004F3A48 /* ViewController.swift in Sources */,
 				2D1DE3221EC0683C004F3A48 /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +515,7 @@
 				2D1DE3481EC0683C004F3A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D1DE3491EC0683C004F3A48 /* Build configuration list for PBXNativeTarget "BullEyeGameTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				2D1DE34B1EC0683C004F3A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D1DE34C1EC0683C004F3A48 /* Build configuration list for PBXNativeTarget "BullEyeGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				2D1DE34E1EC0683C004F3A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
